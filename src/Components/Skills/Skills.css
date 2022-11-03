@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+.skillsContainer {
+    height: 78vh;
+}
+
+#otrasHerramientas{
+    color: #EDF2F7;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.hrSkills{
+    max-width: 37vh;
+    margin: auto;
+}
+
+.logoContainerSkills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 45px;
+    margin: 40px;
+}

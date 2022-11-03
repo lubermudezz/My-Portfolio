@@ -1,0 +1,26 @@
+.avatarAbout {
+    display: initial;
+    border: solid 1px;
+    border-radius: 125px;
+    border-color: moccasin;
+}
+
+.textAbout {
+    color: #EDF2F7;
+    max-width: 500px;
+    text-align: justify;
+
+}
+
+.aboutContainer {
+    margin: 20px;
+    margin-bottom: 70px;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}

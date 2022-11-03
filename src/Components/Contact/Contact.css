@@ -1,0 +1,99 @@
+@keyframes pan {
+    100% {background-position: 50% 70%;}
+}
+
+.contactContainer {
+    height: 64vh;
+    margin-top: 28px;
+}
+.textThanksContact{
+    color: #D6D6E7;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: x-large;
+}
+
+.contactForm{
+    background-image: url('https://res.cloudinary.com/luubermudezz/image/upload/v1667502163/Portafolio/bg_contacto_i7e5mp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: pan 3s infinite alternate linear;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 10px;
+    width: 450px;
+    margin: auto;
+    height: 450px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.labelContact{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: x-large;
+}
+
+.contactForm input{
+    border: solid 1px black;
+    border-radius: 4px;
+    width: 250px;
+    padding: 2px;
+}
+
+.contactForm textarea{
+    border: solid 1px #36395A;
+    border-radius: 4px;
+    width: 250px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}

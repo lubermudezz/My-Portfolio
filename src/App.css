@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  background-color: #342f42;
+
+}
+
+.divSectionContainer {
+  padding-top: 50px;
+}
+
+.titleSection{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(250, 250, 250) ;
+  font-size: 40px;
+  padding: 20px 0px 20px 0px;
 }
 
 .App-logo {

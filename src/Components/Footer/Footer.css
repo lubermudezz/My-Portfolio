@@ -1,0 +1,25 @@
+.footerContainer{
+    background-color: #342f42;
+    color: #fffff8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.logoFooter{
+    filter: saturate(0.5);
+    width: 50px;
+}
+
+.buttonFooter{
+    background-color: rgba(243, 186, 81, 0.925);
+    padding: 8px;
+    color: #342f42;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 4px;
+    font-weight: bold;
+}
