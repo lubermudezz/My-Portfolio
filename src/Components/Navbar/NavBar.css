@@ -57,7 +57,7 @@
     #ulNavDesk {display: none;}
     .ulNav a li {
         width: 100px;
-        padding: 8%;
+        padding: 10%;
     }
 }
 
@@ -65,12 +65,12 @@
     #spanNavDesk {display: none;}
     #ulNavDesk {display: none;}
     #ulNavLaptop {display: none;}
-    .ulNav a li{width: fit-content; padding: 37%;}
+    .ulNav a li{width: fit-content; padding: 40%;}
 }
 
 @media (max-width: 396px) {
     #spanNavDesk {display: none;}
     #ulNavDesk {display: none;}
     #ulNavLaptop {display: none;}
-    .ulNav a li{width: fit-content; padding: 37%;}
+    .ulNav a li{width: fit-content; padding: 40%;}
 }
