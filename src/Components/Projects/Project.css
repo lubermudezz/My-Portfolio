@@ -36,3 +36,17 @@
         padding-bottom: 20px;
     }
 }
+
+@media (max-width:1200px ) {
+    .projectDiv{
+        height: auto;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width:1201px ) {
+    .projectDiv{
+        height: auto;
+        padding-bottom: 20px;
+    }
+}

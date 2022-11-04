@@ -109,3 +109,15 @@
         height: auto;
     }
 }
+
+@media (max-width: 1200px) {
+    .contactContainer {
+        height: auto;
+    }
+}
+
+@media (min-width: 1201px) {
+    .contactContainer {
+        height: auto;
+    }
+}
