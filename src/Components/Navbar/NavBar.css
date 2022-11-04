@@ -44,9 +44,8 @@
     background-color:#ede5c6;
 }
 
-#spanNavMobile {
-    display: none;
-}
+#ulNavLaptop {display: none;}
+#smallSize {display: none;}
 
 @media (min-width: 900px) and (max-width: 1250px) {
     #spanNavDesk {display: none;}

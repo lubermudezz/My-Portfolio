@@ -30,7 +30,7 @@ const NavBar = () => {
                     <a href='#contact'><li>Contacto</li></a>
                     <a target='_blank' href='https://drive.google.com/file/d/1JJCO7MYCYZTu-pC0-7mQebwfCRnDHTxW/view?usp=sharing'><li>CV</li></a>
             </ul>
-            <ul className='ulNav'>
+            <ul className='ulNav' id='smallSize'>
             <a href='#projects'><li>📂</li></a>
                     <a href='#skills'><li>💻</li></a>
                     <a href='#about'><li>🙋‍♀️</li></a>
