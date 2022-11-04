@@ -104,13 +104,13 @@
     }
 }
 
-@media (max-width: 1023px) {
+@media (min-width: 769px ) and (max-width: 1023px) {
     .contactContainer {
         height: auto;
     }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1024px ) and (max-width: 1200px) {
     .contactContainer {
         height: auto;
     }

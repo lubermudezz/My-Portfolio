@@ -1,34 +1,16 @@
 .App {
   text-align: center;
   background-color: #342f42;
-
+  width: auto;
 }
 
 .divSectionContainer {
   width: auto;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
-@media (max-width: 480px ) {
-  .divSectionContainer{
-    width: auto;  
-    padding-bottom: 20px;
-  }
-}
 
-@media (max-width: 768px ) {
-  .divSectionContainer{
-    width: auto;  
-    padding-bottom: 20px;
-  }
-}
-
-@media (max-width: 1023px ) {
-  .divSectionContainer{
-    width: auto;  
-    padding-bottom: 20px;
-  }
-}
 
 .titleSection{
   font-family: 'Roboto Condensed', sans-serif;
