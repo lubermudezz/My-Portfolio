@@ -8,6 +8,9 @@ import github from '../../img/github.png'
 const Home = () => {
   return (
     <div className='homeContainer'>
+      <div className='imgDivHome'>
+        <img className='profileHome' src="https://res.cloudinary.com/luubermudezz/image/upload/v1663225191/Portafolio/perfil_lkxqrt.jpg" alt="Luciana Bermudez" />
+      </div>
       <div className='textDivHome'>
         <h2>Hola 👋 Soy</h2>
         <h1>Luciana Bermudez</h1>
@@ -19,9 +22,7 @@ const Home = () => {
         <a href='https://github.com/lubermudezz' target='_blank'><img width='28px' src={github}></img></a>
         </div>
       </div>
-      <div className='imgDivHome'>
-        <img className='profileHome' src="https://res.cloudinary.com/luubermudezz/image/upload/v1663225191/Portafolio/perfil_lkxqrt.jpg" alt="Luciana Bermudez" />
-      </div>
+      
       
     </div>
   )

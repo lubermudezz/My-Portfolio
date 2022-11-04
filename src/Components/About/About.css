@@ -24,3 +24,7 @@
     align-items: center;
     gap: 80px;
 }
+
+@media (max-width: 480px) {
+    .aboutContainer {height: auto;}
+}

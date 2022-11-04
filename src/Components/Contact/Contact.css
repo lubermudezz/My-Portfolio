@@ -21,7 +21,7 @@
     flex-direction: column;
     border-radius: 10px;
     gap: 10px;
-    width: 450px;
+    width: auto;
     margin: auto;
     height: 450px;
     flex-wrap: wrap;
@@ -96,4 +96,16 @@
 .button-30:active {
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
+}
+
+@media (max-width: 768px) {
+    .contactContainer {
+        height: auto;
+    }
+}
+
+@media (max-width: 1023px) {
+    .contactContainer {
+        height: auto;
+    }
 }

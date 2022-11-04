@@ -1,14 +1,15 @@
 import React from 'react'
-import { Button, Stack, Wrap, WrapItem } from '@chakra-ui/react'
-import { Avatar } from '@chakra-ui/react'
+import { Button, Stack} from '@chakra-ui/react'
 import '../Card/Card.css'
 
 
-const Card = ({ title, text, photo, linkDeploy, linkGithub, altPhoto, tech }) => {
+const Card = ({ title, text, linkDeploy, linkGithub, tech, video }) => {
     return (
         <div className='cardContainer'>
             <div className='card'>
-                <img src={photo} alt={altPhoto} />
+                <video autoPlay muted loop>
+                <source src={video} type="video/mp4" />
+                </video>
                 <div className='container'>
                     <h3>{title}</h3>
                     <p>{text}</p>

@@ -12,9 +12,11 @@
     margin-top: 10px;
 }
 
-.card img {
+.card video {
     border-radius: 19px 19px 0 0 ;
+    width: auto;
 }
+
 
 .card:hover {
     cursor: pointer;
@@ -53,4 +55,24 @@
 .textTech {
     font-variant: all-small-caps;
     font-weight: 500
+}
+
+@media (max-width: 480px) {
+    .card {
+        height: auto;
+
+    }
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        height: auto;
+    }
+}
+
+@media (max-width: 1023px) {
+    .card {
+        height: auto;
+    }
 }

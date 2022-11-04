@@ -59,3 +59,28 @@
     background-color: #443f53;    
 }
 
+
+
+@media (max-width: 480px) {
+    .homeContainer{flex-direction: column; height: auto; padding-top: 70px ;}
+    .textDivHome{text-align: center;}
+    .textDivHome h2{
+        font-size: 30px;
+    }
+    .textDivHome h1{font-size: 33px;}
+    .textDivHome h3{font-size: 22px; color: #EDF2F7;}
+    .textDivHome p{font-size: 18px;  color: #C1C1C1; }
+    .profileHome{width: 200px;}
+}
+
+ @media (max-width: 768px) {
+    .homeContainer{flex-direction: column; height: auto; padding-top: 70px ;}
+    .textDivHome{text-align: center;}
+    .textDivHome h2{
+        font-size: 30px;
+    }
+    .textDivHome h1{font-size: 33px;}
+    .textDivHome h3{font-size: 22px; color: #EDF2F7;}
+    .textDivHome p{font-size: 18px;  color: #C1C1C1; }
+    .profileHome{width: 200px;}
+} 
