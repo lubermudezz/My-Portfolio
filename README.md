@@ -2,6 +2,14 @@
 
 # Bienvenidos a mi portfolio!
 
+- https://portfolio-luciana-bermudez.netlify.app/
+
+## Contactame:
+
+📧 bermudez.luciana9@gmail.com
+
+🌐 https://github.com/lubermudezz
+
 #### Tecnologías utilizadas
 
 - [ ] JavaScript
