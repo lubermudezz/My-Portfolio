@@ -10,7 +10,7 @@ function ContactForm() {
     return <p className='textThanksContact'>Gracias por tu mensaje. En breve nos pondremos en contacto!</p>;
   }
   return (
-    <form onSubmit={handleSubmit} className='contactForm'>
+    <form onSubmit={handleSubmit} className='contactForm' data-aos="fade-up">
       <label htmlFor="email" className='labelContact'>
         Ingresa tu mail
       </label>

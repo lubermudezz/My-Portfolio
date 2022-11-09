@@ -8,10 +8,10 @@ import github from '../../img/github.png'
 const Home = () => {
   return (
     <div className='homeContainer'>
-      <div className='imgDivHome'>
+      <div className='imgDivHome' data-aos="fade-right" data-aos-duration="3000">
         <img className='profileHome' src="https://res.cloudinary.com/luubermudezz/image/upload/v1663225191/Portafolio/perfil_lkxqrt.jpg" alt="Luciana Bermudez" />
       </div>
-      <div className='textDivHome'>
+      <div className='textDivHome' data-aos="fade-left" data-aos-duration="3000">
         <h2>Hola 👋 Soy</h2>
         <h1>Luciana Bermudez</h1>
         <h3>Desarrolladora Web Fullstack</h3>

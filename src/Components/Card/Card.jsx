@@ -6,7 +6,7 @@ import '../Card/Card.css'
 const Card = ({ title, text, linkDeploy, linkGithub, tech, video }) => {
     return (
         <div className='cardContainer'>
-            <div className='card'>
+            <div className='card' data-aos="fade-up" data-aos-duration="3000">
                 <video autoPlay muted loop>
                 <source src={video} type="video/mp4" />
                 </video>
