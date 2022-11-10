@@ -45,6 +45,9 @@
     cursor: url(../../img/hand.png), pointer;
 }
 
+#moreInfo {
+    display: none;
+}
 .buttonsContainer{
     display: flex;
     flex-direction: row;
