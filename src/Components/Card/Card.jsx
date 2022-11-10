@@ -17,11 +17,11 @@ const Card = ({ title, text, linkDeploy, linkGithub, tech, video }) => {
                 <p className='textTech'>{tech}</p>
                 <div className='buttonsContainer'>
                     <Stack spacing={2} direction='row' align='center'>
-                        <a href={linkDeploy} target='_blank'><Button className='buttonCardWidth' colorScheme='gray' size='md'>
+                        <a  href={linkDeploy} target='_blank'><Button id='mouseChange' className='buttonCardWidth' colorScheme='gray' size='md'>
                             <img className='logoButtonCard' src="https://res.cloudinary.com/luubermudezz/image/upload/v1667269996/Portafolio/web_vgnblv.png" alt="lubermudez on linkedIn" width='25px' />
                             Deploy
                         </Button></a>
-                        <a href={linkGithub} target='_blank' ><Button className='buttonCardWidth' colorScheme='gray' size='md'>
+                        <a  href={linkGithub} target='_blank' ><Button id='mouseChange' className='buttonCardWidth' colorScheme='gray' size='md'>
                             <img className='logoButtonCard' src="https://res.cloudinary.com/luubermudezz/image/upload/v1667269998/Portafolio/github_gutpsu.png" alt="lubermudez on github" width='25px' />
                             Github
                         </Button></a>

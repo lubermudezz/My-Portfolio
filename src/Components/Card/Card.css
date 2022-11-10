@@ -41,6 +41,10 @@
     margin: 10px 0 10px 0;
 }
 
+#mouseChange {
+    cursor: url(../../img/hand.png), pointer;
+}
+
 .buttonsContainer{
     display: flex;
     flex-direction: row;
