@@ -17,12 +17,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .profileHome {
     border-radius: 57%;
     filter: grayscale(1);
     width: 355px;
+    
 }
 
 .textDivHome{
@@ -55,7 +57,7 @@
 }
 
 .logoHomeContainer img:hover {
-    cursor: pointer;
+    cursor: url(../../img/hand.png), pointer;
     background-color: #443f53;    
 }
 

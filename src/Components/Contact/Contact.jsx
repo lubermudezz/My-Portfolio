@@ -36,7 +36,7 @@ function ContactForm() {
         errors={state.errors}
       />
 
-      <button className="button-30" role="button" type="submit" disabled={state.submitting}>Enviar</button>
+      <button id='contactButton' className="button-30" role="button" type="submit" disabled={state.submitting}>Enviar</button>
 
     </form>
   );

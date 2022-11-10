@@ -10,10 +10,10 @@ const NavBar = () => {
             <span id='spanNavDesk'>
                 <Wrap>
                     <WrapItem>
-                        <a href='#home'><Avatar name='Lu Bermudez' src='https://res.cloudinary.com/luubermudezz/image/upload/v1663225191/Portafolio/perfil_lkxqrt.jpg' /></a>
+                        <a href='#home' id='mouseChange' ><Avatar name='Lu Bermudez' src='https://res.cloudinary.com/luubermudezz/image/upload/v1663225191/Portafolio/perfil_lkxqrt.jpg' /></a>
                     </WrapItem>
                 </Wrap>
-                <Text fontSize='2xl' className='text'><a href='#home'>Luciana Bermudez</a></Text>
+                <Text fontSize='2xl'className='text'><a id='mouseChange'  href='#home'>Luciana Bermudez</a></Text>
             </span>
             <ul id='ulNavDesk' className='ulNav'>
                     <a href='#projects'><li>Mis proyectos</li></a>

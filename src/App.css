@@ -2,6 +2,7 @@
   text-align: center;
   background-color: #342f42;
   width: auto;
+  cursor: url(../src/img/mouse.png), auto
 }
 
 .divSectionContainer {

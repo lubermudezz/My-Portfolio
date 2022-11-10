@@ -8,6 +8,8 @@
     gap: 30px;
     flex-direction: row;
     padding: 20px;
+    cursor: url(../../img/mouse.png), auto;
+
 }
 
 .logoFooter{
@@ -22,4 +24,10 @@
     font-family: 'Roboto Condensed', sans-serif;
     border-radius: 4px;
     font-weight: bold;
+
+}
+
+#mouseChange {
+    cursor: url(../../img/hand.png), pointer;
+
 }

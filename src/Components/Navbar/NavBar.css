@@ -9,13 +9,15 @@
     top: 0;
     width: 100%;
     align-items: center;
-    z-index: 9999
+    z-index: 9999;
+    cursor: url(../../img/mouse.png), auto;
+
 }
 
 .text{text-align: center;}
 
 .text:hover {
-    cursor: pointer;   
+    cursor: url(../../img/hand.png), pointer;
     color: #ede5c6; 
 }
 
@@ -39,7 +41,7 @@
 }
 
 .ulNav li:hover {
-    cursor: pointer;
+    cursor: url(../../img/hand.png), pointer;
     color: #342f42;
     background-color:#ede5c6;
 }
@@ -76,3 +78,7 @@
     #smallSize {display: none;}
 }
 
+#mouseChange{
+    cursor: url(../../img/hand.png), pointer;
+
+}

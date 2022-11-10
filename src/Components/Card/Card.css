@@ -19,7 +19,7 @@
 
 
 .card:hover {
-    cursor: pointer;
+    cursor: url(../../img/hand.png), pointer;
     box-shadow: 0 10px 10px 0 wheat;
 
 }
