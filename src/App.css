@@ -9,15 +9,19 @@
   .divSectionContainer {
       width: 50vh;
       margin: auto;
+      padding-top: 50px;
+      padding-bottom: 20px;
   }
 }
 
-
-.divSectionContainer {
-  width: auto;
-  padding-top: 50px;
-  padding-bottom: 20px;
+@media(min-width: 481px ){
+  .divSectionContainer {
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
 }
+
 
 
 
