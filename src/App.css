@@ -5,6 +5,14 @@
   cursor: url(../src/img/mouse.png), auto
 }
 
+@media(max-width: 481px ){
+  .divSectionContainer {
+      width: 50vh;
+      margin: auto;
+  }
+}
+
+
 .divSectionContainer {
   width: auto;
   padding-top: 50px;
