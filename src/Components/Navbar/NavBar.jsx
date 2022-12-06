@@ -20,7 +20,7 @@ const NavBar = () => {
                     <a href='#skills'><li>Mis habilidades</li></a>
                     <a href='#about'><li>Sobre mí</li></a>
                     <a href='#contact'><li>Contacto</li></a>
-                    <a target='_blank' href='https://drive.google.com/file/d/1JJCO7MYCYZTu-pC0-7mQebwfCRnDHTxW/view?usp=sharing'><li>CV</li></a>
+                    <a target='_blank' href='https://drive.google.com/file/d/1LHlpQVdvSvz5cNW1zUOu4qwhsq5SyieM/view?usp=sharing'><li>CV</li></a>
 
             </ul>
             <ul className="ulNav" id='ulNavLaptop'>
